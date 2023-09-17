@@ -1,0 +1,25 @@
+// Feuilles de Styles:
+@import"./SASS/Modules/mixins";
+@import"./SASS/Variables/variables_ID_graphiques";
+
+// Restaurants - Menu : 
+@import"./SASS/styles.scss/A_la_française";
+@import"./SASS/styles.scss/homepages";
+@import"./SASS/styles.scss/La_note_enchantée";
+@import "./SASS/styles.scss/La_palette_du_gout";
+@import"./SASS/styles.scss/Le_délice_des_sens";
+
+
+
+
+body{
+    min-width: 322px;
+    width: 100%;
+    height: auto;
+}
+
+*{
+    font-family: $text-font;
+    
+}
+

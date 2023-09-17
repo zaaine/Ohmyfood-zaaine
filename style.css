@@ -1,0 +1,213 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.header_box_logo {
+  margin: auto;
+}
+.header_logo-header {
+  display: flex;
+  width: 197px;
+  height: 36px;
+  padding: 0px 19px 0px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header_bottom {
+  display: flex;
+  width: 100%;
+  height: 3.125rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  gap: 1.0625rem;
+  flex-shrink: 0;
+}
+.header_bottom_icon_position {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 0.75rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+.header_bottom .header_texte-area {
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: normal;
+  border: none;
+  background: none;
+  font-weight: bold;
+  background-color: transparent;
+  font-weight: 700;
+  text-align: center;
+}
+
+.heroscontainer {
+  background: #FFFFFF;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.heroscontainer .slogan_titre {
+  margin-bottom: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.5rem;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.heroscontainer .titre_sub {
+  margin-bottom: 15px;
+  color: #6e6e6e;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Grey, #353535);
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.recherche_bouton {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  width: 220px;
+  height: 50px;
+  padding: 10px;
+  color: white;
+  background: linear-gradient(356deg, #9356dc 0%, #ff79da 100%);
+  box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.12);
+  transition: opacity 1s;
+  transition: transform 330ms ease-in-out;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.recherche_bouton .bouton-style {
+  display: contents;
+  color: white;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.recherche_bouton:hover {
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.4);
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.fonctionnement {
+  padding: 40px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fonctionnement_titre {
+  margin-bottom: 25px;
+}
+.fonctionnement_liste {
+  margin-left: 12px;
+  width: 20.15538rem;
+  height: 4.52369rem;
+}
+
+ol {
+  counter-reset: compteListe;
+}
+ol li::before {
+  counter-increment: compteListe 1;
+  content: counter(compteListe) " ";
+  background: #9356dc;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  margin-top: -2px;
+  margin-left: -56px;
+}
+ol li {
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  height: 80px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 37px;
+  width: 20.15538rem;
+  height: 4.52369rem;
+}
+ol li i {
+  color: #777777;
+  margin-right: 20px;
+}
+ol li span {
+  font-weight: bold;
+}
+ol li:hover {
+  background: #f5edff;
+}
+ol li:hover i {
+  color: #9356dc;
+}
+
+body {
+  min-width: 322px;
+  width: 100%;
+  height: auto;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+}/*# sourceMappingURL=style.css.map */
