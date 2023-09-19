@@ -1,3 +1,7 @@
+@import"../Variables/variables_ID_graphiques";
+@import"../Modules/mixins";
+
+
 // Header//
 
 .header {
@@ -65,33 +69,6 @@
 // Body :
 // hero header//
 
-@mixin hero-style {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  font-size: 1.5rem;
-  font-family: Roboto;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-align: center;
-}
-
-@mixin sub-style {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--Grey, #353535);
-  text-align: center;
-  font-family: $text-font;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
 
 .heroscontainer {
   background: $background-color-main;
@@ -110,6 +87,7 @@
     margin-left: 40px;
     margin-right: 40px;
     @include hero-style;
+    font-family: $text-font;
   }
 
   .titre_sub {
@@ -343,18 +321,24 @@ ol {
     }
 
     .empty {
-      color: #FF79DA;
+      color: $primaire-color;
       width: 1.375rem;
       height: 1.3125rem;
     }
+    
+    // .full .empty:hover {
+    //   color: #9356DC;
+    //   box-shadow: 0 0 0 0 rgba(255, 71, 84, 0.7);
+    //   animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
+    //   display: flex;
+    //   // animation a retravailler
+    // }
 
-    .full:active {
-      color: #9356DC;
-      box-shadow: 0 0 0 0 rgba(255, 71, 84, 0.7);
-      animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
-      display: flex;
-      // animation a retravailler
+    &:focus{
+      .empty{ display: none;}
+      .full{display: flex;}
     }
+
   }
 
   @keyframes like {
@@ -369,6 +353,9 @@ ol {
     }
   }
 }
+
+
+
 
 // footer
 
