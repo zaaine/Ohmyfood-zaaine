@@ -173,7 +173,7 @@
   &_liste {
     margin-left: 12px;
     width: 20.15538rem;
-    height: 4.52369rem;
+    
   }
 }
 ol {
@@ -332,10 +332,10 @@ ol {
   cursor: pointer;
   transform: translate(9.5em, -2em);
 
-  .coeur {
-    position: absolute;
-    color: red;
-  }
+  // .coeur{
+  //   position: absolute;
+  //   color: red;
+  // }
 
   .full{
     color: transparent;
@@ -348,12 +348,13 @@ ol {
     // animation a retravailler
   }
 
-  @keyframes like {
-    to {
-      color: red;
-      box-shadow: 0 0 0 30px rgba(255, 71, 84, 0);
-      .coeur
-      {display: none;}
-    }
+//   @keyframes like {
+//     to {
+//       color: red;
+//       box-shadow: 0 0 0 30px rgba(255, 71, 84, 0);
+//       .coeur
+//       {display: none;}
+//     }
+//   }
+// }
   }
-}
