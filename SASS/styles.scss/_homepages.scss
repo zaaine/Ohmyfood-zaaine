@@ -339,7 +339,7 @@ ol {
     }
 
     .full {
-      color: transparent;
+     display: none;
     }
 
     .empty {
@@ -352,7 +352,7 @@ ol {
       color: #9356DC;
       box-shadow: 0 0 0 0 rgba(255, 71, 84, 0.7);
       animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
-
+      display: flex;
       // animation a retravailler
     }
   }
