@@ -336,32 +336,38 @@ ol {
   cursor: pointer;
   transform: translate(9.5em, -2em);
 
-  // .coeur{
-  //   position: absolute;
-  //   color: red;
-  // }
+  .coeur{
+    position: absolute;
+    color: red;
+  
 
   .full{
     color: transparent;
   }
 
-  .full:hover {
-    
+  .empty{
+    transform: translate(31px, 2px);
+  }
+
+  .coeur:hover {
+    color: red;
     box-shadow: 0 0 0 0 rgba(255, 71, 84, 0.7);
     animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
     // animation a retravailler
   }
+}
+}
 
-//   @keyframes like {
-//     to {
-//       color: red;
-//       box-shadow: 0 0 0 30px rgba(255, 71, 84, 0);
-//       .coeur
-//       {display: none;}
-//     }
-//   }
-// }
+  @keyframes like {
+    to {
+      color: red;
+      box-shadow: 0 0 0 30px rgba(255, 71, 84, 0);
+      .coeur
+      {display: none;}
+    }
   }
+
+  
 
 
   // footer
