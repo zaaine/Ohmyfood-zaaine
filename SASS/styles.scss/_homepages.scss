@@ -1,6 +1,5 @@
-@import"../Variables/variables_ID_graphiques";
-@import"../Modules/mixins";
-
+@import "../Variables/variables_ID_graphiques";
+@import "../Modules/mixins";
 
 // Header//
 
@@ -68,7 +67,6 @@
 
 // Body :
 // hero header//
-
 
 .heroscontainer {
   background: $background-color-main;
@@ -313,54 +311,53 @@ ol {
 
     .coeur {
       position: absolute;
-      color: black;
+      color: #9356dc;
     }
 
     .full {
-     display: none;
+      display: none;
     }
 
     .empty {
-      color: $primaire-color;
+      color: $color_text;
       width: 1.375rem;
       height: 1.3125rem;
     }
-    
-    // .full .empty:hover {
-    //   color: #9356DC;
-    //   box-shadow: 0 0 0 0 rgba(255, 71, 84, 0.7);
-    //   animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
-    //   display: flex;
-    //   // animation a retravailler
-    // }
 
-    &:focus{
-      .empty{ display: none;}
-      .full{display: flex;}
+    &:hover {
+      color: #9356dc;
+      box-shadow: 0 0 0 0 rgba(255, 121, 218, 0.7);
+      animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
+      display: flex;
+      // animation a retravailler
+
+      .full {
+        display: flex;
+        box-shadow: 0 0 0 0 rgba(255, 121, 218, 0.7);
+      }
     }
-
   }
 
   @keyframes like {
     from {
-      color: #FF79DA;
+      color: #ff79da;
     }
 
-
     to {
-      color: #9356DC;
-      box-shadow: 0 0 0 30px rgba(255, 71, 84, 0);
+      color: #9356dc;
+      box-shadow: 0 0 0 30px rgba(255, 121, 218, 0);
     }
   }
 }
-
-
-
 
 // footer
 
 .footer {
   background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 
   .container {
     display: flex;
