@@ -386,31 +386,38 @@ ol li:hover i {
 
 .header_container {
   display: flex;
-  /* width: 23.4375rem; */
-  height: 3.9375rem;
-  padding: 0.875rem 5.5625rem 0.8125rem 1.0625rem;
-  align-items: center;
-  gap: 2.625rem;
-  flex-shrink: 0;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   flex-direction: row;
   justify-content: center;
   flex-wrap: nowrap;
   background: var(--White, #fff);
 }
-.header_container__boxe {
+.header_container .header_box {
+  gap: 2.62rem;
   display: flex;
-  background: white;
-  color: black;
+  padding: 0.875rem 5.5625rem 0.8125rem 1.0625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.header_container__boxe__logo {
-  color: var(--Black, #101010);
-  text-align: center;
-  font-family: Shrikhand;
-  font-size: 1.875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.header_container .header_box .header_A {
+  display: flex;
+  width: 1.875rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+}
+.header_container .header_box .header_A .header_icon {
+  margin-left: 2.62rem;
+  border: none;
+  background: #fff;
+}
+.header_container .header_box .header_A .header_icon .fleche {
+  color: #101010;
+  background-color: #fff;
+  display: inline-block;
+}
+.header_container .header_box .header_B {
+  display: flex;
   display: flex;
   width: 12.3125rem;
   height: 2.25rem;
@@ -419,23 +426,26 @@ ol li:hover i {
   align-items: center;
   flex-shrink: 0;
 }
-.header_container__boxe__icon {
-  height: 1.875rem;
-  flex-shrink: 0;
-}
-.header_container__boxe__icon .fleche {
-  color: #101010;
-  background-color: #fff;
+.header_container .header_box .header_B_logo {
+  color: var(--Black, #101010);
+  text-align: center;
 }
 
 .flag_top {
-  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.flag_top__image {
+.flag_top .flag_image {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 3.4375rem;
+  width: 100%;
   height: 17.1875rem;
+  flex-shrink: 0;
 }
 
 body {
