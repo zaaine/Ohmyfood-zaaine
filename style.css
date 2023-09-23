@@ -398,12 +398,12 @@ ol li:hover i {
   flex-wrap: nowrap;
   background: var(--White, #fff);
 }
-.header_container_boxe {
+.header_container__boxe {
   display: flex;
   background: white;
   color: black;
 }
-.header_container_boxe_logo {
+.header_container__boxe__logo {
   color: var(--Black, #101010);
   text-align: center;
   font-family: Shrikhand;
@@ -419,11 +419,11 @@ ol li:hover i {
   align-items: center;
   flex-shrink: 0;
 }
-.header_container_boxe_icon {
+.header_container__boxe__icon {
   height: 1.875rem;
   flex-shrink: 0;
 }
-.header_container_boxe_icon .fleche {
+.header_container__boxe__icon .fleche {
   color: #101010;
   background-color: #fff;
 }
@@ -431,7 +431,7 @@ ol li:hover i {
 .flag_top {
   flex-shrink: 0;
 }
-.flag_top_image {
+.flag_top__image {
   -o-object-fit: cover;
      object-fit: cover;
   width: 23.4375rem;
