@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header {
   display: flex;
   flex-direction: column;
@@ -444,8 +445,109 @@ ol li:hover i {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-  height: 17.1875rem;
   flex-shrink: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 12%;
+  width: 100%;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  width: 100%;
+  top: -63px;
+}
+
+.card__title {
+  display: flex;
+  flex-direction: row;
+  font-family: Shrikhand, cursive;
+}
+
+.card__icon {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.card__icon .coeur2 {
+  position: absolute;
+  width: 1.375rem;
+  height: 1.3125rem;
+}
+.card__icon .full1 {
+  color: transparent;
+}
+.card__icon .empty1 {
+  position: absolute;
+}
+.card__icon .full1:hover {
+  color: #9356dc;
+}
+
+.box_entrées {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+.box_entrées .box_entrée-titre {
+  display: flex;
+  width: 17.1875rem;
+  height: 1.6875rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.entrées_border {
+  display: flex;
+  padding: 0.9375rem;
+  align-items: flex-end;
+  gap: 0.3125rem;
+  flex: 1 0 0;
+}
+.entrées_border .entrées_plat {
+  height: 1.3125rem;
+  flex-shrink: 0;
+  align-self: stretch;
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  whitespace: nowrap;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.entrées_border .entrées_plat-detail {
+  height: 1.1875rem;
+  flex-shrink: 0;
+  align-self: stretch;
+  verflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  whitespace: nowrap;
+  font-family: Roboto;
+  font-size: 0.94019rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.entrées_border .entrées_plat-prix {
+  color: #353535;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 0.94019rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 body {
