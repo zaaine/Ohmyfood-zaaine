@@ -534,7 +534,6 @@ ol li:hover i {
   overflow: hidden;
   color: #000;
   text-overflow: ellipsis;
-  whitespace: nowrap;
   font-family: Roboto;
   font-size: 1.125rem;
   font-style: normal;
