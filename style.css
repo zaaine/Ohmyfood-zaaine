@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .header {
   display: flex;
   flex-direction: column;
@@ -385,6 +384,10 @@ ol li:hover i {
   margin-right: 0.5rem;
 }
 
+.color_body {
+  background-color: #f6f6f6;
+}
+
 .header_container {
   display: flex;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
@@ -490,29 +493,41 @@ ol li:hover i {
   color: #9356dc;
 }
 
-.box_entrées {
+.contenaire {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.75rem;
+  position: relative;
+  top: -66px;
 }
-.box_entrées .box_entrée-titre {
+.contenaire_titre {
   display: flex;
   width: 17.1875rem;
   height: 1.6875rem;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  color: #000;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
-.entrées_border {
+.box_border {
   display: flex;
   padding: 0.9375rem;
-  align-items: flex-end;
   gap: 0.3125rem;
-  flex: 1 0 0;
+  border-radius: 0.94019rem;
+  background: var(--White, #FFF);
+  box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
+  height: 4.3125rem;
+  width: 90%;
 }
-.entrées_border .entrées_plat {
+.box_border .box_titre1 {
   height: 1.3125rem;
   flex-shrink: 0;
   align-self: stretch;
@@ -523,24 +538,26 @@ ol li:hover i {
   font-family: Roboto;
   font-size: 1.125rem;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
+  margin: 0%;
 }
-.entrées_border .entrées_plat-detail {
+.box_border .box_titre2 {
   height: 1.1875rem;
   flex-shrink: 0;
   align-self: stretch;
-  verflow: hidden;
+  overflow: hidden;
   color: #000;
   text-overflow: ellipsis;
-  whitespace: nowrap;
+  white-space: nowrap;
   font-family: Roboto;
   font-size: 0.94019rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  margin: 0%;
 }
-.entrées_border .entrées_plat-prix {
+.box_border .box_titre3 {
   color: #353535;
   text-align: center;
   font-family: Roboto;
@@ -548,6 +565,53 @@ ol li:hover i {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 0%;
+}
+
+.block1 {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.block2 {
+  display: flex;
+  position: relative;
+  top: -12px;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+
+/* animation check */
+.box_contents_right {
+  display: flex;
+  align-items: center;
+  width: 0%;
+  color: transparent;
+  background-color: #FFF;
+}
+
+.box_border:hover .box_contents_right {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  color: white;
+  background-color: #99E2D0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  border-radius: 0 15px 15px 0;
+  height: 100px;
+  position: relative;
+  top: -15px;
+  left: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 body {

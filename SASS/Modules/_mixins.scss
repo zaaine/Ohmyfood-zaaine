@@ -1,5 +1,5 @@
 
-// mixin pour hero
+// mixin pour homepage
 
 @mixin hero-style {
     text-align: center;
@@ -28,4 +28,16 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+// Mixins autre page
+
+@mixin contenaire_titre{
+color: #000;
+font-family: Roboto;
+font-size: 1rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
 }
