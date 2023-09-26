@@ -41,3 +41,34 @@ font-weight: 300;
 line-height: normal;
 text-transform: uppercase;
 }
+
+@mixin box_titre1{
+    color: #000;
+    text-overflow: ellipsis;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@mixin box_titre2{
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Roboto;
+    font-size: 0.94019rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+@mixin box_titre3{
+    font-family: Roboto;
+    font-size: 0.94019rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #353535;
+
+}

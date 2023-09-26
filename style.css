@@ -58,7 +58,7 @@
 }
 
 .heroscontainer {
-  background: #FFFFFF;
+  background: #f6f6f6;
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -174,7 +174,7 @@ ol li::before {
 }
 ol li {
   cursor: pointer;
-  background: #FFFFFF;
+  background: #f6f6f6;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.1);
   position: relative;
   justify-content: center;
@@ -394,7 +394,7 @@ ol li:hover i {
   flex-direction: row;
   justify-content: center;
   flex-wrap: nowrap;
-  background: var(--White, #fff);
+  background: #fff;
 }
 .header_container .header_box {
   gap: 2.62rem;
@@ -431,7 +431,7 @@ ol li:hover i {
   flex-shrink: 0;
 }
 .header_container .header_box .header_B_logo {
-  color: var(--Black, #101010);
+  color: #101010;
   text-align: center;
 }
 
@@ -490,7 +490,7 @@ ol li:hover i {
   position: absolute;
 }
 .card__icon .full1:hover {
-  color: #9356dc;
+  color: #9356DC;
 }
 
 .contenaire {
@@ -503,11 +503,14 @@ ol li:hover i {
 }
 .contenaire_titre {
   display: flex;
-  width: 17.1875rem;
+  width: 2.5rem;
   height: 1.6875rem;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  border-bottom: #99E2D0 2px solid;
+  border-width: 2px;
+  padding-bottom: 13px;
   color: #000;
   font-family: Roboto;
   font-size: 1rem;
@@ -522,7 +525,7 @@ ol li:hover i {
   padding: 0.9375rem;
   gap: 0.3125rem;
   border-radius: 0.94019rem;
-  background: var(--White, #FFF);
+  background: #fff;
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
   height: 4.3125rem;
   width: 90%;
@@ -532,6 +535,7 @@ ol li:hover i {
   flex-shrink: 0;
   align-self: stretch;
   overflow: hidden;
+  margin: 0%;
   color: #000;
   text-overflow: ellipsis;
   font-family: Roboto;
@@ -539,13 +543,13 @@ ol li:hover i {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 0%;
 }
 .box_border .box_titre2 {
   height: 1.1875rem;
   flex-shrink: 0;
   align-self: stretch;
   overflow: hidden;
+  margin: 0%;
   color: #000;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -554,17 +558,16 @@ ol li:hover i {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin: 0%;
 }
 .box_border .box_titre3 {
-  color: #353535;
   text-align: center;
+  margin-bottom: 0%;
   font-family: Roboto;
   font-size: 0.94019rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 0%;
+  color: #353535;
 }
 
 .block1 {
@@ -591,14 +594,14 @@ ol li:hover i {
   align-items: center;
   width: 0%;
   color: transparent;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .box_border:hover .box_contents_right {
   display: flex;
   align-items: center;
   width: 10%;
-  color: white;
+  color: #fff;
   background-color: #99E2D0;
   display: flex;
   align-items: center;
