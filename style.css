@@ -349,6 +349,7 @@ ol li:hover i {
   display: flex;
   flex-direction: column;
   padding: 1.375rem 1.5625rem;
+  padding-right: 10rem;
   gap: 0.4375rem;
 }
 .footer__logo {
@@ -614,6 +615,20 @@ ol li:hover i {
   left: 15px;
   overflow: hidden;
   transition: all 0.3s ease;
+}
+
+.element {
+  position: relative;
+  top: -2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.emplacement_bouton {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+  position: relative;
+  top: -35px;
 }
 
 body {
