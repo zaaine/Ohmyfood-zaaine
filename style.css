@@ -628,6 +628,14 @@ ol li:hover i {
   margin-right: 0.5rem;
 }
 
+@media (min-width: 1700px) {
+  html {
+    margin: auto;
+    padding: 2.5rem;
+    max-width: 1440px;
+    height: 100%;
+  }
+}
 @media (min-width: 1024px) {
   .box_logo {
     display: flex;
