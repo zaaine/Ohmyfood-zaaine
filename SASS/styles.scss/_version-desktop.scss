@@ -63,16 +63,19 @@
     height: auto;
     margin-bottom: 1.875rem;
     .title_container {
-      margin-bottom: 0%;
       width: 100%;
       height: auto;
       min-width: 30.625rem;
       display: flex;
+      margin-bottom: -4%;
     }
     .card_restaurant{
         min-width: auto;
         max-width: 30.625rem;
         width: 44%;
+    }
+    .boxe_restaurant-icon{
+        transform: translate(13.5em, -2em);
     }
 
   }
