@@ -30,7 +30,7 @@
     line-height: normal;
 }
 
-// Mixins autre page
+// Mixins autre page version smartphone
 
 @mixin contenaire_titre{
 color: #000;
@@ -71,4 +71,15 @@ text-transform: uppercase;
     line-height: normal;
     color: #353535;
 
+}
+
+// mixin police pour version desktop
+
+@mixin titrehomedesktop {
+color: #000;
+font-family: Roboto;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
