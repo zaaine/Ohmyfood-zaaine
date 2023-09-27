@@ -58,7 +58,7 @@
   align-items: center;
   width: 100%;
 }
-.flag_top .flag_image {
+.flag_top_image {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -566,13 +566,11 @@ ol li:hover i {
 }
 .container_cards .boxe_restaurant-icon:hover {
   color: #9356dc;
-  box-shadow: 0 0 0 0 rgba(255, 121, 218, 0.7);
   animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
   display: flex;
 }
 .container_cards .boxe_restaurant-icon:hover .full {
   display: flex;
-  box-shadow: 0 0 0 0 rgba(255, 121, 218, 0.7);
 }
 @keyframes like {
   from {
