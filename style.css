@@ -707,7 +707,7 @@ ol li:hover i {
     width: 44%;
   }
   .container_cards .boxe_restaurant-icon {
-    transform: translate(13.5em, -2em);
+    transform: translate(15.5em, -2em);
   }
   .footer {
     display: flex;
@@ -742,6 +742,15 @@ ol li:hover i {
     display: flex;
     align-items: flex-end;
     flex-direction: row;
+  }
+  .card, .contenaire, .element {
+    width: 65.9375rem;
+    padding: 0 12.5rem;
+    margin-bottom: 1rem;
+  }
+  .contenaire {
+    gap: 0.75rem;
+    padding-top: 2.5rem;
   }
 }
 body {
