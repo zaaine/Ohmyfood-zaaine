@@ -12,6 +12,13 @@
  }
 }
 
+@media screen (min-widht:1440px) {
+    .boxe_restaurant-icon{
+        transform: translate(15.5em, -2em);
+    }
+    
+}
+
 
 // version desktop
 
@@ -90,7 +97,7 @@
         width: 44%;
     }
     .boxe_restaurant-icon{
-        transform: translate(15.5em, -2em);
+        transform: translate(8.5em, -2em);
     }
 
   }
@@ -139,16 +146,62 @@
 
 //   menus-restaurants
 
+.color_body{
+    background-color: $white-color;
+}
+
+.flag_image {
+   display: none;
+  }
+
+  .flag_image2{
+    display: flex !important;
+    object-fit: cover;
+    width: 100%;
+    flex-shrink: 0;
+  }
+
 .card, .contenaire, .element {
 
-    width: 65.9375rem;
-    padding: 0 12.5rem;
+    width: 74%;
+    top: -36px;
     margin-bottom: 1rem;
+    background-color: $background-color-main;
+    margin: auto;
 }
+
 
 .contenaire{
     gap: 0.75rem;
     padding-top: 2.5rem;
+    padding-bottom: 0.75rem;
+
+    &_titre{
+        margin-left: 12%;
+    }
 }
+
+.element{
+    padding-bottom: 0.75rem;
+}
+
+.box_border{
+    width: 71%;
+    margin-left: 12%;
+}
+
+
+
+
+    .emplacement_bouton {
+        width: 74%;
+        background-color: #f6f6f6;
+        margin: auto;
+        border-radius: 0 0 30px 30px;
+        top: -37px;
+        margin-bottom: 1.5rem;
+    }
+    
+
 
 }

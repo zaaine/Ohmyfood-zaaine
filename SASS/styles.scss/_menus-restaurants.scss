@@ -68,9 +68,14 @@
   .flag_image {
     object-fit: cover;
     width: 100%;
-    // height: 17.1875rem;
     flex-shrink: 0;
   }
+
+  .flag_image2{
+    display: none;
+  }
+
+  
 }
 
 .card {
@@ -153,6 +158,7 @@
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
   height: 4.3125rem;
   width: 90%;
+  margin-left: 0;
 
   .box_titre1 {
     height: 1.3125rem;

@@ -64,6 +64,9 @@
   width: 100%;
   flex-shrink: 0;
 }
+.flag_top .flag_image2 {
+  display: none;
+}
 
 .card {
   display: flex;
@@ -143,6 +146,7 @@
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
   height: 4.3125rem;
   width: 90%;
+  margin-left: 0;
 }
 .box_border .box_titre1 {
   height: 1.3125rem;
@@ -592,7 +596,7 @@ ol li:hover i {
   display: flex;
   flex-direction: column;
   padding: 1.375rem 1.5625rem;
-  padding-right: 10rem;
+  padding-right: 6rem;
   gap: 0.4375rem;
 }
 .footer__logo {
@@ -707,7 +711,7 @@ ol li:hover i {
     width: 44%;
   }
   .container_cards .boxe_restaurant-icon {
-    transform: translate(15.5em, -2em);
+    transform: translate(8.5em, -2em);
   }
   .footer {
     display: flex;
@@ -743,14 +747,48 @@ ol li:hover i {
     align-items: flex-end;
     flex-direction: row;
   }
+  .color_body {
+    background-color: #fff;
+  }
+  .flag_image {
+    display: none;
+  }
+  .flag_image2 {
+    display: flex !important;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    flex-shrink: 0;
+  }
   .card, .contenaire, .element {
-    width: 65.9375rem;
-    padding: 0 12.5rem;
+    width: 74%;
+    top: -36px;
     margin-bottom: 1rem;
+    background-color: #f6f6f6;
+    margin: auto;
   }
   .contenaire {
     gap: 0.75rem;
     padding-top: 2.5rem;
+    padding-bottom: 0.75rem;
+  }
+  .contenaire_titre {
+    margin-left: 12%;
+  }
+  .element {
+    padding-bottom: 0.75rem;
+  }
+  .box_border {
+    width: 71%;
+    margin-left: 12%;
+  }
+  .emplacement_bouton {
+    width: 74%;
+    background-color: #f6f6f6;
+    margin: auto;
+    border-radius: 0 0 30px 30px;
+    top: -37px;
+    margin-bottom: 1.5rem;
   }
 }
 body {
