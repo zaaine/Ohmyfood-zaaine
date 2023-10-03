@@ -639,6 +639,23 @@ ol li:hover i {
     max-width: 1440px;
     height: 100%;
   }
+  .fonctionnement {
+    padding: 3.125rem 17.25rem;
+  }
+}
+@media (min-width: 1440px) {
+  .boxe_restaurant-icon {
+    transform: translate(15.5em, -2em);
+  }
+  .fonctionnement {
+    padding: 3.125rem 11.25rem;
+  }
+  .fonctionnement ol {
+    justify-content: space-evenly;
+  }
+  .container_cards .boxe_restaurant-icon {
+    transform: translate(14.5em, -2em);
+  }
 }
 @media (min-width: 1024px) {
   .box_logo {
@@ -652,12 +669,8 @@ ol li:hover i {
   .heroscontainer .titre_sub {
     width: 33.1875rem;
   }
-  .recherche_bouton {
-    width: 13.625rem;
-    height: 3.125rem;
-  }
   .fonctionnement {
-    padding: 3.125rem 11.25rem;
+    padding: 3.125rem 5.25rem;
     align-items: flex-start;
     gap: 1.5625rem;
     display: flex;
@@ -680,11 +693,29 @@ ol li:hover i {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    gap: 1.25rem;
+    gap: 1.56rem;
   }
   .fonctionnement ol li {
     width: 30%;
     max-width: 15.15538rem;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+  }
+  .fonctionnement ol ::before {
+    margin-top: -2px;
+    left: 40px;
+  }
+  .fonctionnement ol i {
+    margin-left: 1.11rem;
+  }
+  .fonctionnement ol span {
+    width: 13.1875rem;
+    height: 0.97938rem;
+  }
+  .fonctionnement ol .recherche_bouton {
+    width: 13.625rem;
+    height: 3.125rem;
   }
   .container_cards {
     justify-content: flex-start;
@@ -760,7 +791,9 @@ ol li:hover i {
     width: 100%;
     flex-shrink: 0;
   }
-  .card, .contenaire, .element {
+  .card,
+  .contenaire,
+  .element {
     width: 74%;
     top: -36px;
     margin-bottom: 1rem;
