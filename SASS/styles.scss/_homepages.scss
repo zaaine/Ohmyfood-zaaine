@@ -166,7 +166,7 @@ ol {
     position: absolute;
     display: flex;
     margin-top: -2px;
-    margin-left: -56px;
+    margin-left: -310px;
   }
   & li {
     cursor: pointer;
@@ -176,9 +176,8 @@ ol {
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    height: 80px;
     margin-bottom: 30px;
-    padding-top: 30px;
+    display: flex;
     padding-left: 37px;
     width: 15.15538rem;
     height: 4.52369rem;
@@ -213,7 +212,7 @@ ol {
     width: 17.1875rem;
     height: 4.25rem;
     flex-shrink: 0;
-   @include titrehomedesktop ;
+    @include titrehomedesktop;
   }
   .card_restaurant {
     border-radius: 0.9375rem;

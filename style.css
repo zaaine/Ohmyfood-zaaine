@@ -434,7 +434,7 @@ ol li::before {
   position: absolute;
   display: flex;
   margin-top: -2px;
-  margin-left: -56px;
+  margin-left: -310px;
 }
 ol li {
   cursor: pointer;
@@ -444,9 +444,8 @@ ol li {
   justify-content: center;
   align-items: center;
   border-radius: 25px;
-  height: 80px;
   margin-bottom: 30px;
-  padding-top: 30px;
+  display: flex;
   padding-left: 37px;
   width: 15.15538rem;
   height: 4.52369rem;
@@ -653,14 +652,8 @@ ol li:hover i {
     max-width: 1440px;
     height: 100%;
   }
-  .fonctionnement {
-    padding: 3.125rem 17.25rem;
-  }
 }
-@media (min-width: 1440px) {
-  .boxe_restaurant-icon {
-    transform: translate(15.5em, -2em);
-  }
+@media (min-width: 1400px) {
   .fonctionnement {
     padding: 3.125rem 11.25rem !important;
   }
@@ -668,7 +661,15 @@ ol li:hover i {
     justify-content: space-evenly;
   }
   .boxe_restaurant-icon {
-    transform: translate(14.5em, -2em) !important;
+    transform: translate(16.5em, -2em) !important;
+  }
+  .container_cards {
+    padding: 0rem 10.25rem !important;
+  }
+}
+@media (min-width: 1300px) {
+  .container_cards .boxe_restaurant-icon {
+    transform: translate(15.5em, -2em);
   }
 }
 @media (min-width: 1024px) {
@@ -710,7 +711,6 @@ ol li:hover i {
     gap: 1.56rem;
   }
   .fonctionnement ol li {
-    width: 30%;
     max-width: 15.15538rem;
     margin: 0%;
     padding: 0;
@@ -718,7 +718,7 @@ ol li:hover i {
   }
   .fonctionnement ol ::before {
     margin-top: -2px;
-    left: 40px;
+    right: 233px;
   }
   .fonctionnement ol i {
     margin-left: 1.11rem;
@@ -739,7 +739,7 @@ ol li:hover i {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0rem 11.25rem;
+    padding: 0rem 5.25rem;
     height: auto;
     margin-bottom: 1.875rem;
   }
@@ -756,7 +756,7 @@ ol li:hover i {
     width: 44%;
   }
   .container_cards .boxe_restaurant-icon {
-    transform: translate(8.5em, -2em);
+    transform: translate(12.5em, -2em);
   }
   .footer {
     display: flex;
