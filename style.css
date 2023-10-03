@@ -68,6 +68,15 @@
   display: none;
 }
 
+.flag_top .postion_img-lne {
+  width: 100%;
+}
+.flag_top .postion_img-lne .image_lne {
+  -o-object-position: 0 -39px;
+     object-position: 0 -39px;
+  width: 100%;
+}
+
 .card {
   display: flex;
   flex-direction: row;
@@ -82,6 +91,11 @@
   position: relative;
   width: 100%;
   top: -63px;
+}
+
+.card_border {
+  background-color: #f6f6f6;
+  width: 100%;
 }
 
 .card__title {
@@ -648,13 +662,13 @@ ol li:hover i {
     transform: translate(15.5em, -2em);
   }
   .fonctionnement {
-    padding: 3.125rem 11.25rem;
+    padding: 3.125rem 11.25rem !important;
   }
   .fonctionnement ol {
     justify-content: space-evenly;
   }
-  .container_cards .boxe_restaurant-icon {
-    transform: translate(14.5em, -2em);
+  .boxe_restaurant-icon {
+    transform: translate(14.5em, -2em) !important;
   }
 }
 @media (min-width: 1024px) {

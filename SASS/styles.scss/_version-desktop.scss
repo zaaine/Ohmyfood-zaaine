@@ -16,14 +16,14 @@
     transform: translate(15.5em, -2em);
   }
   .fonctionnement{
-    padding: 3.125rem 11.25rem;
+    padding: 3.125rem 11.25rem !important;
 
     ol{
         justify-content: space-evenly;
     }
 }
-.container_cards .boxe_restaurant-icon {
-    transform: translate(14.5em, -2em);
+.boxe_restaurant-icon {
+    transform: translate(14.5em, -2em)!important;
 }
  }
 // version desktop
@@ -68,7 +68,7 @@
       gap: 1.56rem;
 
       li {
-        width: 30%;
+        // width: 30%;
         max-width: 15.15538rem;
         margin: 0%;
         padding: 0;
@@ -169,6 +169,7 @@
   .flag_image {
     display: none;
   }
+
 
   .flag_image2 {
     display: flex !important;
