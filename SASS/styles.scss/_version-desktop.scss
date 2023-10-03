@@ -19,9 +19,7 @@
         justify-content: space-evenly;
     }
 }
-.boxe_restaurant-icon {
-    transform: translate(16.5em, -2em)!important;
-}
+
 
 .container_cards{
     padding: 0rem 10.25rem !important;
@@ -30,11 +28,6 @@
  }
 
 
- @media(min-width:1300px){
-    .container_cards .boxe_restaurant-icon {
-        transform: translate(15.5em, -2em);
-    }
- }
 
 // version desktop
 
@@ -126,9 +119,7 @@
       max-width: 30.625rem;
       width: 44%;
     }
-    .boxe_restaurant-icon {
-      transform: translate(12.5em, -2em);
-    }
+  
   }
 
   .footer {

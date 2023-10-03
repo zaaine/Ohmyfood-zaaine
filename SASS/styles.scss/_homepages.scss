@@ -296,11 +296,13 @@ ol {
   }
 
   .boxe_restaurant-icon {
-    position: relative;
     height: 25px;
     font-size: 25px;
     cursor: pointer;
-    transform: translate(9.5em, -2em);
+    position: absolute;
+    right: 39px;
+    bottom: 41px;
+    font-size: 25px;
 
     .coeur {
       position: absolute;
