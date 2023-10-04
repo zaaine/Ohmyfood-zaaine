@@ -28,7 +28,6 @@
  }
 
 
-
 // version desktop
 
 @media (min-width: 1024px) {
@@ -44,8 +43,6 @@
   .heroscontainer .titre_sub {
     width: 33.1875rem;
   }
-
- 
 
   .fonctionnement {
     padding: 3.125rem 5.25rem;
@@ -91,9 +88,9 @@
         width: 13.625rem;
         height: 3.125rem;
       }
-    
   }
 }
+
   //   cards restaurants
 
   .container_cards {
@@ -192,7 +189,6 @@
     gap: 0.75rem;
     padding-top: 2.5rem;
     padding-bottom: 0.75rem;
-
     &_titre {
       margin-left: 12%;
     }
@@ -209,11 +205,10 @@
 
   .emplacement_bouton {
     width: 74%;
-    background-color: #f6f6f6;
+    background-color:$background-color-main;
     margin: auto;
     border-radius: 0 0 30px 30px;
     top: -37px;
     margin-bottom: 1.5rem;
   }
-
  }

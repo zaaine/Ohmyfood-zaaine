@@ -90,11 +90,11 @@
 
   .titre_sub {
     margin-bottom: 15px;
-    color: #6e6e6e;
+    color: $border-input-localisation-focus;
     font-size: 18px;
     font-family: Roboto, sans-serif;
     width: 20rem;
-    @include sub-style();
+    @include sub-style;
   }
 }
 
@@ -106,7 +106,7 @@
   width: 220px;
   height: 50px;
   padding: 10px;
-  color: white;
+  color: $white-color;
   background: linear-gradient(356deg, #9356dc 0%, #ff79da 100%);
   box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.12);
   -webkit-transition: opacity 1s;
@@ -122,7 +122,7 @@
 
   .bouton-style {
     display: contents;
-    color: white;
+    color: $white-color
     font-family: Roboto;
     font-size: 1rem;
     font-style: normal;
@@ -156,13 +156,13 @@ ol {
     counter-increment: compteListe 1;
 
     content: counter(compteListe) " ";
-    background: #9356dc;
+    background: $primaire-color;
     border-radius: 50%;
     width: 25px;
     height: 25px;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: $white-color;
     position: absolute;
     display: flex;
     margin-top: -2px;
@@ -192,7 +192,7 @@ ol {
       background: #f5edff;
     }
     &:hover i {
-      color: #9356dc;
+      color: $primaire-color;
     }
   }
 }
@@ -201,7 +201,7 @@ ol {
 
 .container_cards {
   width: 100%;
-  background: var(--Background, #f6f6f6);
+  background: $background-color-main;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -216,7 +216,7 @@ ol {
   }
   .card_restaurant {
     border-radius: 0.9375rem;
-    background: #fff;
+    background: $white-color;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
     width: auto;
     height: 15.6875rem;
@@ -234,14 +234,14 @@ ol {
     border-radius: 15px 15px 0px 0px;
   }
   .img_sticker {
-    color: var(--Green-Font, #008766);
+    color: $green-sticker;
     text-align: center;
     font-family: Roboto;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    background-color: #99e2d0;
+    background-color: $tertiaire-color;
     border-radius: 2px;
     position: absolute;
     padding: 6px 0px 6px 0px;
@@ -262,9 +262,7 @@ ol {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-
     flex-direction: column;
-
     flex-wrap: nowrap;
     padding: 183px 14px 1px 14px;
     margin: 1px 2px 5px 6px;
@@ -272,26 +270,18 @@ ol {
       width: 16.6875rem;
       height: 1.25rem;
       flex-shrink: 0;
-      color: #000;
-      font-family: Roboto;
-      font-size: 1.125rem;
-      font-style: normal;
       font-weight: 700;
-      line-height: normal;
+      @include box_titre1;
       margin: 0%;
     }
     .p_card {
       width: 15.4375rem;
       height: 1.5rem;
       flex-shrink: 0;
-      color: #000;
-      font-family: Roboto;
       font-size: 1.0625rem;
-      font-style: normal;
-      font-weight: 300;
-      line-height: normal;
       margin: 0;
       margin-top: 9px;
+      @include box_titre2;
     }
   }
 
@@ -306,7 +296,7 @@ ol {
 
     .coeur {
       position: absolute;
-      color: #9356dc;
+      color: $primaire-color;
     }
 
     .full {
@@ -320,26 +310,22 @@ ol {
     }
 
     &:hover {
-      color: #9356dc;
-      // box-shadow: 0 0 0 0 rgba(255, 121, 218, 0.7);
+      color: $primaire-color;
       animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
       display: flex;
-      // animation a retravailler
-
       .full {
         display: flex;
-        // box-shadow: 0 0 0 0 rgba(255, 121, 218, 0.7);
       }
     }
   }
 
   @keyframes like {
     from {
-      color: #ff79da;
+      color: $secondaire-color;
     }
 
     to {
-      color: #9356dc;
+      color: $primaire-color;
       box-shadow: 0 0 0 30px rgba(255, 121, 218, 0);
     }
   }
@@ -348,7 +334,7 @@ ol {
 // footer
 
 .footer {
-  background-color: #353535;
+  background-color: $background-color-Grey;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -363,7 +349,7 @@ ol {
   }
 
   &__logo {
-    color: white;
+    color: $white-color;
     font-family: "Shrikhand", "cursive";
     margin: 0;
     font-size: 1.2rem;
@@ -389,7 +375,7 @@ ol {
   }
 
   &__link {
-    color: white;
+    color: $white-color;
     text-decoration: none;
 
     &:hover {

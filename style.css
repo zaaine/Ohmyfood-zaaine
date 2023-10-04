@@ -566,7 +566,7 @@ ol li:hover i {
   height: 25px;
   font-size: 25px;
   cursor: pointer;
-  transform: translate(9.5em, -2em);
+  
 }
 .container_cards .boxe_restaurant-icon .coeur {
   position: absolute;
@@ -660,18 +660,11 @@ ol li:hover i {
   .fonctionnement ol {
     justify-content: space-evenly;
   }
-  .boxe_restaurant-icon {
-    transform: translate(16.5em, -2em) !important;
-  }
   .container_cards {
     padding: 0rem 10.25rem !important;
   }
 }
-@media (min-width: 1300px) {
-  .container_cards .boxe_restaurant-icon {
-    transform: translate(15.5em, -2em);
-  }
-}
+
 @media (min-width: 1024px) {
   .box_logo {
     display: flex;
@@ -755,9 +748,7 @@ ol li:hover i {
     max-width: 30.625rem;
     width: 44%;
   }
-  .container_cards .boxe_restaurant-icon {
-    transform: translate(12.5em, -2em);
-  }
+
   .footer {
     display: flex;
   }
