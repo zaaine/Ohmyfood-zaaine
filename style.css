@@ -377,7 +377,7 @@
   width: 220px;
   height: 50px;
   padding: 10px;
-  color: white;
+  color: #fff;
   background: linear-gradient(356deg, #9356dc 0%, #ff79da 100%);
   box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.12);
   transition: opacity 1s;
@@ -391,7 +391,7 @@
 }
 .recherche_bouton .bouton-style {
   display: contents;
-  color: white;
+  color: #fff;
   font-family: Roboto;
   font-size: 1rem;
   font-style: normal;
@@ -424,7 +424,7 @@ ol {
 ol li::before {
   counter-increment: compteListe 1;
   content: counter(compteListe) " ";
-  background: #9356dc;
+  background: #9356DC;
   border-radius: 50%;
   width: 25px;
   height: 25px;
@@ -461,12 +461,12 @@ ol li:hover {
   background: #f5edff;
 }
 ol li:hover i {
-  color: #9356dc;
+  color: #9356DC;
 }
 
 .container_cards {
   width: 100%;
-  background: var(--Background, #f6f6f6);
+  background: #f6f6f6;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -505,14 +505,14 @@ ol li:hover i {
   border-radius: 15px 15px 0px 0px;
 }
 .container_cards .img_sticker {
-  color: var(--Green-Font, #008766);
+  color: #008766;
   text-align: center;
   font-family: Roboto;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   border-radius: 2px;
   position: absolute;
   padding: 6px 0px 6px 0px;
@@ -540,11 +540,13 @@ ol li:hover i {
   width: 16.6875rem;
   height: 1.25rem;
   flex-shrink: 0;
+  font-weight: 700;
   color: #000;
+  text-overflow: ellipsis;
   font-family: Roboto;
   font-size: 1.125rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   margin: 0%;
 }
@@ -552,25 +554,30 @@ ol li:hover i {
   width: 15.4375rem;
   height: 1.5rem;
   flex-shrink: 0;
-  color: #000;
-  font-family: Roboto;
   font-size: 1.0625rem;
+  margin: 0;
+  margin-top: 9px;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Roboto;
+  font-size: 0.94019rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin: 0;
-  margin-top: 9px;
 }
 .container_cards .boxe_restaurant-icon {
-  position: relative;
   height: 25px;
   font-size: 25px;
   cursor: pointer;
-  
+  position: absolute;
+  right: 49px;
+  bottom: 37px;
+  font-size: 25px;
 }
 .container_cards .boxe_restaurant-icon .coeur {
   position: absolute;
-  color: #9356dc;
+  color: #9356DC;
 }
 .container_cards .boxe_restaurant-icon .full {
   display: none;
@@ -581,7 +588,7 @@ ol li:hover i {
   height: 1.3125rem;
 }
 .container_cards .boxe_restaurant-icon:hover {
-  color: #9356dc;
+  color: #9356DC;
   animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
   display: flex;
 }
@@ -590,10 +597,10 @@ ol li:hover i {
 }
 @keyframes like {
   from {
-    color: #ff79da;
+    color: #FF79DA;
   }
   to {
-    color: #9356dc;
+    color: #9356DC;
     box-shadow: 0 0 0 30px rgba(255, 121, 218, 0);
   }
 }
@@ -613,7 +620,7 @@ ol li:hover i {
   gap: 0.4375rem;
 }
 .footer__logo {
-  color: white;
+  color: #fff;
   font-family: "Shrikhand", "cursive";
   margin: 0;
   font-size: 1.2rem;
@@ -634,7 +641,7 @@ ol li:hover i {
   margin-bottom: 0;
 }
 .footer__link {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 .footer__link:hover {
@@ -664,7 +671,6 @@ ol li:hover i {
     padding: 0rem 10.25rem !important;
   }
 }
-
 @media (min-width: 1024px) {
   .box_logo {
     display: flex;
@@ -748,7 +754,6 @@ ol li:hover i {
     max-width: 30.625rem;
     width: 44%;
   }
-
   .footer {
     display: flex;
   }
@@ -786,7 +791,7 @@ ol li:hover i {
   .color_body {
     background-color: #fff;
   }
-  .flag_image {
+  .flag_rip {
     display: none;
   }
   .flag_image2 {

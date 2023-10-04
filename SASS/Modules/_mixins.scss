@@ -83,3 +83,15 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
+// bouton styles
+
+@mixin bouton_style {
+    display: contents;
+    color: $white-color;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

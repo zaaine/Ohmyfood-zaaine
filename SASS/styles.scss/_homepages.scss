@@ -92,7 +92,7 @@
     margin-bottom: 15px;
     color: $border-input-localisation-focus;
     font-size: 18px;
-    font-family: Roboto, sans-serif;
+    font-family: $text-font;
     width: 20rem;
     @include sub-style;
   }
@@ -121,13 +121,7 @@
   align-items: center;
 
   .bouton-style {
-    display: contents;
-    color: $white-color
-    font-family: Roboto;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+@include bouton_style;
   }
 }
 .recherche_bouton:hover {
@@ -290,8 +284,8 @@ ol {
     font-size: 25px;
     cursor: pointer;
     position: absolute;
-    right: 39px;
-    bottom: 41px;
+    right: 49px;
+    bottom: 37px;
     font-size: 25px;
 
     .coeur {
