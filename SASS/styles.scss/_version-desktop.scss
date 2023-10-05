@@ -1,4 +1,4 @@
-// version desktop XL >1700px
+
 
 @media (min-width: 1700px) {
   html {
@@ -7,26 +7,21 @@
     max-width: 1440px;
     height: 100%;
   }
- }
+}
 
 @media (min-width: 1400px) {
- 
-
-  .fonctionnement{
+  .fonctionnement {
     padding: 3.125rem 11.25rem !important;
 
-    ol{
-        justify-content: space-evenly;
+    ol {
+      justify-content: space-evenly;
     }
-}
+  }
 
-
-.container_cards{
+  .container_cards {
     padding: 0rem 10.25rem !important;
+  }
 }
-
- }
-
 
 // version desktop
 
@@ -72,12 +67,12 @@
         margin: 0%;
         padding: 0;
         display: flex;
-    }
+      }
       ::before {
         margin-top: -2px;
         right: 233px;
       }
-      i{
+      i {
         margin-left: 1.11rem;
       }
       span {
@@ -88,8 +83,8 @@
         width: 13.625rem;
         height: 3.125rem;
       }
+    }
   }
-}
 
   //   cards restaurants
 
@@ -116,7 +111,6 @@
       max-width: 30.625rem;
       width: 44%;
     }
-  
   }
 
   .footer {
@@ -167,7 +161,6 @@
     display: none;
   }
 
-
   .flag_image2 {
     display: flex !important;
     object-fit: cover;
@@ -205,10 +198,10 @@
 
   .emplacement_bouton {
     width: 74%;
-    background-color:$background-color-main;
+    background-color: $background-color-main;
     margin: auto;
     border-radius: 0 0 30px 30px;
     top: -37px;
     margin-bottom: 1.5rem;
   }
- }
+}

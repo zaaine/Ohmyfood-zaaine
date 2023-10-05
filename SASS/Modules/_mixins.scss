@@ -1,97 +1,94 @@
-
 // mixin pour homepages version smartphone
 
 @mixin hero-style {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    font-size: 1.5rem;
-    font-family: Roboto;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.5rem;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
 }
 
-
 @mixin sub-style {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $background-color-Grey;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $background-color-Grey;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 // Mixins autres pages version smartphone
 
-@mixin contenaire_titre{
-color: #000;
-font-family: Roboto;
-font-size: 1rem;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-text-transform: uppercase;
+@mixin contenaire_titre {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
-@mixin box_titre1{
-    color: #000;
-    text-overflow: ellipsis;
-    font-family: Roboto;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+@mixin box_titre1 {
+  color: #000;
+  text-overflow: ellipsis;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-@mixin box_titre2{
-    color: #000;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-family: Roboto;
-    font-size: 0.94019rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+@mixin box_titre2 {
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Roboto;
+  font-size: 0.94019rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
-@mixin box_titre3{
-    font-family: Roboto;
-    font-size: 0.94019rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    color: #353535;
-
+@mixin box_titre3 {
+  font-family: Roboto;
+  font-size: 0.94019rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #353535;
 }
 
 // mixin police pour version desktop
 
 @mixin titrehomedesktop {
-color: #000;
-font-family: Roboto;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 // bouton styles
 
 @mixin bouton_style {
-    display: contents;
-    color: $white-color;
-    font-family: Roboto;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  display: contents;
+  color: $white-color;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }

@@ -79,11 +79,18 @@
 .flag_top {
   .postion_img-lne {
     width: 100%;
-    .image_lne {
-      object-position: 0 -39px;
-      width: 100%;
-    }
   }
+}
+
+.image_lne {
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  height: 55vh;
+  min-height: 17.1875rem;
+  object-position: 0 -8px;
 }
 
 .card {

@@ -24,7 +24,6 @@
   margin: 25% auto;
   gap: 4rem;
   width: 100%;
-  
 }
 
 .loader {
@@ -66,8 +65,6 @@
   }
 }
 
-
-
 @keyframes off {
   from {
     opacity: 90%;
@@ -79,33 +76,30 @@
   }
 }
 
+// Animation des cards homepages.
 
-// Animation des cards homepages
-
-.load2{
+.load2 {
   animation-delay: 10s;
   animation: enter 3s linear;
   animation-iteration-count: 1;
 }
 @keyframes enter {
-  from{
-  transform: translateX(-200px);   
+  from {
+    transform: translateX(-200px);
   }
- 
-  to{
-   transform: translateX(50px); 
+
+  to {
+    transform: translateX(50px);
   }
 }
 
-
 // animation autres pages - menu apparait
 
-.anim-element{
+.anim-element {
   animation-delay: 3s;
   animation: lacartesvp 3s linear;
   animation-iteration-count: 1;
 }
-
 
 @keyframes lacartesvp {
   0% {
@@ -115,4 +109,3 @@
     transform: scale(1);
   }
 }
-

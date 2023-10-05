@@ -1,6 +1,3 @@
-@import "../Variables/variables_ID_graphiques";
-@import "../Modules/mixins";
-
 // Header//
 
 .header {
@@ -121,7 +118,7 @@
   align-items: center;
 
   .bouton-style {
-@include bouton_style;
+    @include bouton_style;
   }
 }
 .recherche_bouton:hover {
