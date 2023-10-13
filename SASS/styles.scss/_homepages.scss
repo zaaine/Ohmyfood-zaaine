@@ -71,18 +71,19 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
-  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
 
   .slogan_titre {
-    margin-bottom: 15px;
+    margin-bottom: 0;
     margin-left: 40px;
     margin-right: 40px;
     @include hero-style;
     font-family: $text-font;
+    height: 2.93rem;
+    padding-bottom: 1rem;
   }
 
   .titre_sub {
@@ -91,6 +92,9 @@
     font-size: 18px;
     font-family: $text-font;
     width: 20rem;
+    height: 2.875rem;
+    text-wrap: wrap;
+    margin-top: 1.12rem;
     @include sub-style;
   }
 }
@@ -100,8 +104,8 @@
   font-size: 16px;
   border: none;
   border-radius: 30px;
-  width: 220px;
-  height: 50px;
+  width: 13.625rem;
+  height: 3.125rem;
   padding: 10px;
   color: $white-color;
   background: linear-gradient(356deg, #9356dc 0%, #ff79da 100%);
@@ -132,13 +136,14 @@
 .fonctionnement {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
+
   &_titre {
-    margin-bottom: 25px;
+    margin-left: 1.125rem
   }
   &_liste {
     margin-left: 12px;
-    width: 20.15538rem;
+    width: 100%;
   }
 }
 ol {
@@ -169,8 +174,7 @@ ol {
     border-radius: 25px;
     margin-bottom: 30px;
     display: flex;
-    padding-left: 37px;
-    width: 15.15538rem;
+    width: 90%;
     height: 4.52369rem;
     & i {
       color: #777777;
@@ -200,15 +204,15 @@ ol {
   flex-wrap: nowrap;
 
   .title_container {
-    width: 17.1875rem;
+    width: 90%;
     height: 4.25rem;
     flex-shrink: 0;
-    @include titrehomedesktop;
+    justify-items: flex-start;
+    @include titreh2;
   }
   .card_restaurant {
     border-radius: 0.9375rem;
     background: $white-color;
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
     width: auto;
     height: 15.6875rem;
     flex-shrink: 0;

@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  font-size: 1.5rem;
   font-family: Roboto;
   font-size: 1.5rem;
   font-style: normal;
@@ -25,6 +24,16 @@
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 300;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+@mixin titreh2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
   line-height: normal;
 }
 
