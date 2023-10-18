@@ -68,9 +68,10 @@
 .heroscontainer {
   background: $background-color-main;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1.88rem;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -78,18 +79,18 @@
 
   .slogan_titre {
     margin-bottom: 0;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
     @include hero-style;
     font-family: $text-font;
-    height: 2.93rem;
+    height: auto;
     padding-bottom: 1rem;
   }
 
   .titre_sub {
     margin-bottom: 15px;
     color: $border-input-localisation-focus;
-    font-size: 18px;
+    font-size: 0.938rem;
     font-family: $text-font;
     width: 20rem;
     height: 2.875rem;
@@ -136,10 +137,9 @@
 .fonctionnement {
   display: flex;
   flex-direction: column;
-  
 
   &_titre {
-    margin-left: 1.125rem
+    margin-left: 1.125rem;
   }
   &_liste {
     margin-left: 12px;
@@ -295,7 +295,10 @@ ol {
     }
 
     .full {
-      display: none;
+      font-size: 10px;
+      bottom: 3px;
+      left: 7px;
+      color: transparent;
     }
 
     .empty {
@@ -304,24 +307,34 @@ ol {
       height: 1.3125rem;
     }
 
-    &:hover {
+    .full:hover {
       color: $primaire-color;
-      animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
+      animation: like 4s infinite ease-in-out;
       display: flex;
-      .full {
-        display: flex;
-      }
     }
   }
 
   @keyframes like {
-    from {
+    0% {
       color: $secondaire-color;
     }
+    30% {
+      font-size: 15px;
+      left: 6px;
+    }
 
-    to {
+    60% {
+      font-size: 25px;
+      left: -2px;
+      bottom: 0px;
+    }
+
+    90% {
+      font-size: 20px;
+    }
+
+    100% {
       color: $primaire-color;
-      box-shadow: 0 0 0 30px rgba(255, 121, 218, 0);
     }
   }
 }

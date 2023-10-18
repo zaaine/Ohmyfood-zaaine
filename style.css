@@ -339,9 +339,10 @@
 .heroscontainer {
   background: #f6f6f6;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1.88rem;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -349,8 +350,8 @@
 }
 .heroscontainer .slogan_titre {
   margin-bottom: 0;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -363,13 +364,13 @@
   line-height: normal;
   text-align: center;
   font-family: Roboto, sans-serif;
-  height: 2.93rem;
+  height: auto;
   padding-bottom: 1rem;
 }
 .heroscontainer .titre_sub {
   margin-bottom: 15px;
   color: #6e6e6e;
-  font-size: 18px;
+  font-size: 0.938rem;
   font-family: Roboto, sans-serif;
   width: 20rem;
   height: 2.875rem;
@@ -597,28 +598,39 @@ ol li:hover i {
   color: #9356DC;
 }
 .container_cards .boxe_restaurant-icon .full {
-  display: none;
+  font-size: 10px;
+  bottom: 3px;
+  left: 7px;
+  color: transparent;
 }
 .container_cards .boxe_restaurant-icon .empty {
   color: #101010;
   width: 1.375rem;
   height: 1.3125rem;
 }
-.container_cards .boxe_restaurant-icon:hover {
+.container_cards .boxe_restaurant-icon .full:hover {
   color: #9356DC;
-  animation: like 2s infinite cubic-bezier(0.66, 0, 0, 1);
-  display: flex;
-}
-.container_cards .boxe_restaurant-icon:hover .full {
+  animation: like 4s infinite ease-in-out;
   display: flex;
 }
 @keyframes like {
-  from {
+  0% {
     color: #FF79DA;
   }
-  to {
+  30% {
+    font-size: 15px;
+    left: 6px;
+  }
+  60% {
+    font-size: 25px;
+    left: -2px;
+    bottom: 0px;
+  }
+  90% {
+    font-size: 20px;
+  }
+  100% {
     color: #9356DC;
-    box-shadow: 0 0 0 30px rgba(255, 121, 218, 0);
   }
 }
 
