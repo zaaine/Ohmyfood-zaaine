@@ -314,30 +314,7 @@ ol {
     }
   }
 
-  @keyframes like {
-    0% {
-      color: $secondaire-color;
-    }
-    30% {
-      font-size: 15px;
-      left: 6px;
-    }
 
-    60% {
-      font-size: 25px;
-      left: -2px;
-      bottom: 0px;
-    }
-
-    90% {
-      font-size: 20px;
-    }
-
-    100% {
-      color: $primaire-color;
-    }
-  }
-}
 
 // footer
 
