@@ -11,6 +11,8 @@
 
   &_box_logo {
     margin: auto;
+    padding-top: 0.88rem;
+    padding-bottom: 0.88rem;
   }
 
   &_logo-header {
@@ -137,20 +139,21 @@
 .fonctionnement {
   display: flex;
   flex-direction: column;
-
   &_titre {
-    margin-left: 1.125rem;
+    padding-left: -2.4rem;
+    @include titreh2;
   }
   &_liste {
-    margin-left: 12px;
     width: 100%;
   }
-}
+ }
+
+   
+
 ol {
   counter-reset: compteListe;
   & li::before {
     counter-increment: compteListe 1;
-
     content: counter(compteListe) " ";
     background: $primaire-color;
     border-radius: 50%;
@@ -313,8 +316,7 @@ ol {
       display: flex;
     }
   }
-
-
+}
 
 // footer
 
