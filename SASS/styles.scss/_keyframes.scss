@@ -111,25 +111,25 @@
 }
 
 
-// animation like cards restaurants
+
 
 @keyframes like {
   0% {
     color: $secondaire-color;
+    scale: 0.2;
+    bottom: -6px;
   }
   30% {
-    font-size: 15px;
-    left: 6px;
+    scale: 0.5;
   }
 
   60% {
-    font-size: 25px;
-    left: -2px;
+    scale: 1;
     bottom: 0px;
   }
 
   90% {
-    font-size: 20px;
+    scale: 1.2;
   }
 
   100% {

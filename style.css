@@ -431,7 +431,7 @@
   flex-direction: column;
 }
 .fonctionnement_titre {
-  padding-left: 2.5rem;
+  padding-left: -2.4rem;
   color: #000;
   font-family: Roboto;
   font-size: 1.125rem;
@@ -604,9 +604,9 @@ ol li:hover i {
   color: #9356DC;
 }
 .container_cards .boxe_restaurant-icon .full {
-  font-size: 10px;
+  font-size: 22px;
   bottom: 3px;
-  left: 7px;
+  right: -23px;
   color: transparent;
 }
 .container_cards .boxe_restaurant-icon .empty {
@@ -614,10 +614,9 @@ ol li:hover i {
   width: 1.375rem;
   height: 1.3125rem;
 }
-.container_cards .boxe_restaurant-icon .full:hover {
-  color: #9356DC;
-  animation: like 4s infinite ease-in-out;
-  display: flex;
+
+.card_restaurant .full:hover {
+  animation: like 2s infinite linear;
 }
 
 .footer {
@@ -969,18 +968,18 @@ ol li:hover i {
 @keyframes like {
   0% {
     color: #FF79DA;
+    scale: 0.2;
+    bottom: -6px;
   }
   30% {
-    font-size: 15px;
-    left: 6px;
+    scale: 0.5;
   }
   60% {
-    font-size: 25px;
-    left: -2px;
+    scale: 1;
     bottom: 0px;
   }
   90% {
-    font-size: 20px;
+    scale: 1.2;
   }
   100% {
     color: #9356DC;
