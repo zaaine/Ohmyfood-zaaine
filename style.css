@@ -27,7 +27,7 @@
   justify-content: flex-end;
 }
 .header_container .header_box .header_A .header_icon {
-  margin-left: 2.62rem;
+  margin-left: 1.06rem;
   border: none;
   background: #fff;
 }
@@ -287,6 +287,8 @@
 }
 .header_box_logo {
   margin: auto;
+  padding-top: 0.88rem;
+  padding-bottom: 0.88rem;
 }
 .header_logo-header {
   display: flex;
@@ -429,10 +431,15 @@
   flex-direction: column;
 }
 .fonctionnement_titre {
-  margin-left: 1.125rem;
+  padding-left: 2.5rem;
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .fonctionnement_liste {
-  margin-left: 12px;
   width: 100%;
 }
 
@@ -611,26 +618,6 @@ ol li:hover i {
   color: #9356DC;
   animation: like 4s infinite ease-in-out;
   display: flex;
-}
-@keyframes like {
-  0% {
-    color: #FF79DA;
-  }
-  30% {
-    font-size: 15px;
-    left: 6px;
-  }
-  60% {
-    font-size: 25px;
-    left: -2px;
-    bottom: 0px;
-  }
-  90% {
-    font-size: 20px;
-  }
-  100% {
-    color: #9356DC;
-  }
 }
 
 .footer {
@@ -977,6 +964,26 @@ ol li:hover i {
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes like {
+  0% {
+    color: #FF79DA;
+  }
+  30% {
+    font-size: 15px;
+    left: 6px;
+  }
+  60% {
+    font-size: 25px;
+    left: -2px;
+    bottom: 0px;
+  }
+  90% {
+    font-size: 20px;
+  }
+  100% {
+    color: #9356DC;
   }
 }
 body {
