@@ -287,8 +287,8 @@
 }
 .header_box_logo {
   margin: auto;
-  padding-top: 0.88rem;
-  padding-bottom: 0.88rem;
+  padding-top: 1.88rem;
+  padding-bottom: 1.89rem;
 }
 .header_logo-header {
   display: flex;
@@ -978,7 +978,7 @@ ol li:hover i {
     bottom: 0px;
   }
   90% {
-    scale: 1.2;
+    scale: 1.1;
   }
   100% {
     color: #9356DC;
