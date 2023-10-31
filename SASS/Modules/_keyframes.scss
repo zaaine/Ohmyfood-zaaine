@@ -116,20 +116,20 @@
 @keyframes like {
   0% {
     color: $secondaire-color;
-    scale: 0.2;
+    scale: (0.2);
     bottom: -6px;
   }
   30% {
-    scale: 0.5;
+    scale: (0.5);
   }
 
   60% {
-    scale: 1;
+    scale:(1);
     bottom: 0px;
   }
 
   90% {
-    scale: 1.1;
+    scale: (1.1);
   }
 
   100% {
