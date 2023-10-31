@@ -408,12 +408,12 @@
   justify-content: center;
   width: 100%;
 }
-.header_box_logo {
+.header .box_logo {
   margin: auto;
-  padding-top: 1.88rem;
-  padding-bottom: 1.89rem;
+  padding-top: 0.88rem;
+  padding-bottom: 0.81rem;
 }
-.header_logo-header {
+.header .logo-header {
   display: flex;
   width: 197px;
   height: 36px;
@@ -465,7 +465,7 @@
   text-align: center;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  padding-top: 2.5rem;
+  padding-top: 2.44rem;
   padding-bottom: 1.88rem;
   display: flex;
   flex-direction: column;
@@ -476,6 +476,8 @@
   margin-bottom: 0;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+  font-family: Roboto, sans-serif;
+  height: auto;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -487,9 +489,6 @@
   font-weight: 700;
   line-height: normal;
   text-align: center;
-  font-family: Roboto, sans-serif;
-  height: auto;
-  padding-bottom: 1rem;
 }
 .heroscontainer .titre_sub {
   margin-bottom: 15px;
@@ -499,7 +498,6 @@
   width: 20rem;
   height: 2.875rem;
   text-wrap: wrap;
-  margin-top: 1.12rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -554,7 +552,7 @@
   flex-direction: column;
 }
 .fonctionnement_titre {
-  padding-left: -2.4rem;
+  padding: 3rem 1.25rem 1.62rem;
   color: #000;
   font-family: Roboto;
   font-size: 1.125rem;
@@ -814,10 +812,10 @@ ol li:hover i {
   .box_logo {
     display: flex;
     height: 2rem;
-    padding: 1.875rem 0rem 1.98738rem 0rem;
     justify-content: center;
     align-items: center;
     align-self: stretch;
+    padding: 1.875rem 0rem 1.98738rem 0rem;
   }
   .heroscontainer .titre_sub {
     width: 33.1875rem;

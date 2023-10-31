@@ -9,13 +9,14 @@
   justify-content: center;
   width: 100%;
 
-  &_box_logo {
+  .box_logo {
     margin: auto;
-    padding-top: 1.88rem;
-    padding-bottom: 1.89rem;
+    padding-top: 0.88rem;
+    padding-bottom: 0.81rem;
+    
   }
 
-  &_logo-header {
+  .logo-header {
     display: flex;
     width: 197px;
     height: 36px;
@@ -72,7 +73,7 @@
   text-align: center;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  padding-top: 2.5rem;
+  padding-top: 2.44rem;
   padding-bottom: 1.88rem;
   display: flex;
   flex-direction: column;
@@ -83,10 +84,9 @@
     margin-bottom: 0;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-    @include hero-style;
     font-family: $text-font;
     height: auto;
-    padding-bottom: 1rem;
+    @include hero-style;
   }
 
   .titre_sub {
@@ -97,7 +97,6 @@
     width: 20rem;
     height: 2.875rem;
     text-wrap: wrap;
-    margin-top: 1.12rem;
     @include sub-style;
   }
 }
@@ -140,7 +139,7 @@
   display: flex;
   flex-direction: column;
   &_titre {
-    padding-left: -2.4rem;
+    padding: 3rem 1.25rem 1.62rem;
     @include titreh2;
   }
   &_liste {
