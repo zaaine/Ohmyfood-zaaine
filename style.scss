@@ -1,13 +1,13 @@
 // Feuilles de Styles:
 @import"./SASS/Modules/mixins";
-@import"./SASS/Variables/variables_ID_graphiques";
+@import"./SASS/Modules/variables_ID_graphiques";
+@import"./SASS/Modules/_keyframes.scss";
 
 
 // Restaurants - Menu : 
 @import"./SASS/styles.scss/_menus-restaurants";
 @import"./SASS/styles.scss/homepages";
 @import"./SASS/styles.scss/_version-desktop";
-@import"./SASS/styles.scss/_keyframes.scss";
 
 
 
