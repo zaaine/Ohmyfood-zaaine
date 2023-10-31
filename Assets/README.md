@@ -93,3 +93,5 @@ Pages de menu
 ● Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus. Cela fait apparaître une petite coche à droite du plat. Cette coche devra coulisser de la droite vers la gauche. Pour cette première version, l’effet peut apparaître au survol sur desktop au lieu du clic. Si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension.
 Organisation interne du projet
 Circuit de validation : toutes les étapes du projet seront validées par Paul.
+
+fin
