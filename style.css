@@ -614,8 +614,7 @@ ol li:hover i {
   width: 1.375rem;
   height: 1.3125rem;
 }
-
-.card_restaurant .full:hover {
+.container_cards > :hover .full {
   animation: like 2s infinite linear;
 }
 

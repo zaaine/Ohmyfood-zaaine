@@ -307,18 +307,16 @@ ol {
       width: 1.375rem;
       height: 1.3125rem;
     }
+    
+
   }
+  >:hover{
+    .full {
+     animation: like 2s infinite linear;
+   }
+   }
 }
 
-.card_restaurant .full:hover {
-  animation: like 2s infinite linear;
-}
-
-// .full .empty:hover {
-//   // color: $primaire-color;
-
-//   display: flex;
-// }
 
 // footer
 
