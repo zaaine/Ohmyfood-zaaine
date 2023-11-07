@@ -13,7 +13,6 @@
     margin: auto;
     padding-top: 0.88rem;
     padding-bottom: 0.81rem;
-    
   }
 
   .logo-header {
@@ -51,6 +50,7 @@
     height: 1rem;
     flex-shrink: 0;
   }
+  
   .header_texte-area {
     font-family: Roboto;
     font-size: 1rem;
@@ -306,16 +306,13 @@ ol {
       width: 1.375rem;
       height: 1.3125rem;
     }
-    
-
   }
-  .boxe_restaurant-icon:hover{
+  .boxe_restaurant-icon:hover {
     .full {
-     animation: like 2s infinite linear;
-   }
-   }
+      animation: like 2s infinite linear;
+    }
+  }
 }
-
 
 // footer
 
