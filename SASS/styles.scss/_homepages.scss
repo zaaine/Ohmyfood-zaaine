@@ -50,7 +50,7 @@
     height: 1rem;
     flex-shrink: 0;
   }
-  
+
   .header_texte-area {
     font-family: Roboto;
     font-size: 1rem;
@@ -96,7 +96,6 @@
     font-family: $text-font;
     width: 20rem;
     height: 2.875rem;
-    text-wrap: wrap;
     @include sub-style;
   }
 }

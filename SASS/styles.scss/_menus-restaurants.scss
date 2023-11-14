@@ -10,7 +10,6 @@
   flex-wrap: nowrap;
   background: $white-color;
 
-
   .header_box {
     gap: 2.62rem;
     display: flex;
@@ -68,7 +67,7 @@
   align-items: center;
   width: 100%;
 
-  .flag_box{
+  .flag_box {
     width: 100%;
   }
 
@@ -140,15 +139,18 @@
 
   .full1 {
     color: transparent;
+
+    position: unset;
   }
 
   .empty1 {
     position: absolute;
   }
-
-  .full1:hover {
-    color: $primaire-color;
-  }
+}
+.card__icon:hover .full1 {
+  animation: like 2s infinite linear;
+  cursor: pointer;
+  // color: $primaire-color;
 }
 
 // Carte Menu
@@ -160,6 +162,7 @@
   gap: 0.75rem;
   position: relative;
   top: -66px;
+  padding: 0.94rem;
 
   &_titre {
     display: flex;
@@ -216,6 +219,9 @@
   flex: 1 0 0;
   flex-direction: column;
   justify-content: space-around;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .block2 {
   display: flex;
@@ -236,6 +242,17 @@
   width: 0%;
   color: transparent;
   background-color: $white-color;
+  transition: all 2s ease-in-out;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 2px;
+  height: 100%;
+  justify-content: center;
 }
 
 .box_border:hover {
@@ -255,8 +272,7 @@
     top: -15px;
     left: 15px;
     overflow: hidden;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    cursor: pointer;
   }
 }
 
@@ -264,6 +280,7 @@
   position: relative;
   top: -2.5rem;
   padding-bottom: 2.5rem;
+  padding: 0.94rem;
 }
 
 .emplacement_bouton {
