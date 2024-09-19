@@ -114,3 +114,9 @@ Toutes les étapes de validation seront supervisées par **Paul**, le chef de pr
 ## Lien vers la maquette
 
 [Accéder à la maquette Figma](<https://www.figma.com/design/O1ACDayPjlxCUHgjgvoE0j/Maquettes-Ohmyfood-(mobile-et-desktop)-(Copy)?node-id=0-1&node-type=canvas&t=FCvisbnjZ64SvZIr-0>)
+
+## Remarques
+
+- Ne pas modifier les photos.
+- Aucun Framework n'est autorisé.
+- Respect de la maquette.

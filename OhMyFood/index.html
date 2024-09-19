@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ohmyfood - Réservez le menu qui vous convient dans les restaurants d'exception de Paris. Composez votre menu et gagnez du temps."
+    />
+
     <!-- Link -->
     <link rel="stylesheet" href="./style.css" />
 
@@ -17,7 +22,7 @@
       src="https://kit.fontawesome.com/70f41f18b3.js"
       crossorigin="anonymous"
     ></script>
-    <title>Homepage</title>
+    <title>Ohmyfood - Réservez des menus dans les restaurants parisiens</title>
   </head>
 
   <body>
@@ -54,6 +59,7 @@
               type="search"
               name="localisation"
               value="Paris, Belleville"
+              placeholder="Changer la localisation"
             />
           </div>
         </form>
@@ -71,7 +77,9 @@
         </p>
       </div>
       <div class="recherche_bouton">
-        <button class="bouton-style">Explorer nos restaurants</button>
+        <button class="bouton-style" aria-label="Explorer nos restaurants">
+          Explorer nos restaurants
+        </button>
       </div>
     </section>
 
@@ -215,7 +223,10 @@
             <a class="footer__link" href="#">Mentions légales</a>
           </li>
           <li class="footer__content">
-            <a class="footer__link" href="mailto:contact@ohmyfood.com"
+            <a
+              class="footer__link"
+              href="mailto:contact@ohmyfood.com"
+              rel="nofollow"
               >Contact</a
             >
           </li>
